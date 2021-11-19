@@ -463,9 +463,9 @@ call s:X("CursorLineNr","ccc5c4","","NONE","White","")
 call s:X("Comment","888888","","italic","Grey","")
 call s:X("Todo","c7c7c7","","bold","White",s:termBlack)
 
-call s:X("StatusLine","000000","dddddd","italic","","White")
-call s:X("StatusLineNC","ffffff","403c41","italic","White","Black")
-call s:X("VertSplit","777777","403c41","",s:termBlack,s:termBlack)
+call s:X("StatusLine","ffffff","151515","none","","White")
+call s:X("StatusLineNC","A69460","151515","none","none","234")
+call s:X("VertSplit","202020","none","",s:termBlack,s:termBlack)
 call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
@@ -492,7 +492,7 @@ hi! link Operator Structure
 hi! link Conceal Operator
 
 call s:X("Type","ffb964","","","Yellow","")
-call s:X("NonText","606060",s:background_color,"",s:termBlack,"")
+call s:X("NonText",s:background_color,s:background_color,"",s:termBlack,"")
 
 call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
 
@@ -503,7 +503,6 @@ call s:X("ErrorMsg","","902020","","","DarkRed")
 hi! link Error ErrorMsg
 hi! link MoreMsg Special
 call s:X("Question","65C254","","","Green","")
-
 
 " Spell Checking
 
@@ -577,7 +576,6 @@ hi! link erlangNode Identifier
 " Elixir
 
 hi! link elixirAtom rubySymbol
-
 
 " JavaScript
 

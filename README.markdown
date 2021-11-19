@@ -30,7 +30,7 @@ Jellybeans can also be installed through plugin managers such as
 [dein.vim][dein], [Pathogen][pathogen], [VAM][vam],
 [vim-plug][vim-plug], [Vundle][vundle], etc.
 
-To enable the jellybeans color scheme, use 
+To enable the jellybeans color scheme, use
 ```
 :colorscheme jellybeans
 ```
@@ -170,10 +170,13 @@ The font in the screenshot is 10pt [Monaco][monaco]:
 set guifont=Monaco:h10 noanti
 ```
 
-
 [ir_black]: https://web.archive.org/web/20140211124943/http://toddwerth.com/2008/01/25/a-black-os-x-leopard-terminal-theme-that-is-actually-readable/
 [twilight]: http://www.vim.org/scripts/script.php?script_id=1677
 [vimscript]: http://www.vim.org/scripts/script.php?script_id=2555
 [preview-ss]: https://nanotech.nanotechcorp.net/downloads/jellybeans-preview.png
 [ss-anchor]: #screenshots
 [monaco]: https://en.wikipedia.org/wiki/Monaco_(typeface)
+
+## Edited
+
+VertSplit, NonText, StatusLine, StatusLineNC
