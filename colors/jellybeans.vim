@@ -88,7 +88,7 @@ endif
 " - g:jellybeans_use_gui_italics    (default = 1)
 " - g:jellybeans_use_term_italics   (default = 0)
 
-let s:background_color = "151515"
+let s:background_color = "0d0c0d"
 
 if exists("g:jellybeans_overrides")
   let s:overrides = g:jellybeans_overrides
@@ -416,7 +416,7 @@ fun! s:X(group, fg, bg, attr, lcfg, lcbg)
 endfun
 " }}}
 
-call s:X("Normal","e8e8d3",s:background_color,"","White","")
+call s:X("Normal","ababa4",s:background_color,"","White","")
 set background=dark
 
 call s:X("CursorLine","","1c1c1c","","",s:termBlack)
@@ -493,6 +493,7 @@ hi! link Conceal Operator
 
 call s:X("Type","ffb964","","","Yellow","")
 call s:X("NonText",s:background_color,s:background_color,"",s:termBlack,"")
+call s:X("EndOfBuffer",s:background_color,"","",s:background_color,"")
 
 call s:X("SpecialKey","444444","1c1c1c","",s:termBlack,"")
 
