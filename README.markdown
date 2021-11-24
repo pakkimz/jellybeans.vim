@@ -179,4 +179,4 @@ set guifont=Monaco:h10 noanti
 
 ## Edited
 
-VertSplit, NonText, StatusLine, StatusLineNC, background_color, Normal, EndOfBuffer, Comment
+VertSplit, NonText, StatusLine, StatusLineNC, background_color, Normal, EndOfBuffer, Comment, WildMenu
