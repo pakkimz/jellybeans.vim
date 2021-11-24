@@ -460,7 +460,7 @@ call s:X("Cursor",s:background_color,"b0d0f0","","","")
 
 call s:X("LineNr","605958",s:background_color,"NONE",s:termBlack,"")
 call s:X("CursorLineNr","ccc5c4","","NONE","White","")
-call s:X("Comment","888888","","italic","Grey","")
+call s:X("Comment","585858","","italic","Grey","")
 call s:X("Todo","c7c7c7","","bold","White",s:termBlack)
 
 call s:X("StatusLine","ffffff","151515","none","","White")
