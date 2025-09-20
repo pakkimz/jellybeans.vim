@@ -90,6 +90,7 @@ endif
 
 " make it work alpha st terminal
 let s:background_color = "NONE"
+" let s:background_color = "151515"
 
 if exists("g:jellybeans_overrides")
   let s:overrides = g:jellybeans_overrides
