@@ -88,7 +88,8 @@ endif
 " - g:jellybeans_use_gui_italics    (default = 1)
 " - g:jellybeans_use_term_italics   (default = 0)
 
-let s:background_color = "0d0c0d"
+" make it work alpha st terminal
+let s:background_color = "NONE"
 
 if exists("g:jellybeans_overrides")
   let s:overrides = g:jellybeans_overrides
